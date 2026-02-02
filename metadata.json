@@ -1,0 +1,5 @@
+{
+  "name": "PMESP - Consulta de Infrações",
+  "description": "Aplicativo tático para consulta de infrações de trânsito (Motocicletas) - Polícia Militar de São Paulo.",
+  "requestFramePermissions": []
+}
