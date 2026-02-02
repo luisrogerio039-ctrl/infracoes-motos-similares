@@ -72,16 +72,16 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Equipamento obrigatório em desacordo",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran "item 2.3.3.5" (sugiro a leitura)"
   },
   {
-    descricao: "Escapamento sem redutor de temperatura (Motocicletas fabricadas a partir de 2009)",
+    descricao: "Escapamento sem redutor de temperatura (Motocicletas fabricadas a partir de 2009), "quando exigível pelo modelo"",
     codigo: "664-50",
     artigo: "Art. 230, X",
     tipificacao: "Equipamento obrigatório em desacordo",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran "item 2.3" (sugiro a leitura)"
   },
   {
     descricao: "Escapamento com descarga livre (tubo oco, sem nenhuma espécie de abafador, silencioso ou miolo interno)",
@@ -90,7 +90,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Veículo com descarga livre",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran "item 2.1" (sugiro a leitura)"
   },
   {
     descricao: "Escapamento com ruído irregular, oriundo de furos por corrosão ou intensionalmente, miolo adulterado, quebrado e etc…",
@@ -99,7 +99,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Silenciador de motor de explosão defeituoso, deficiente ou inoperante",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran "item 4.2.2" (sugiro a leitura)"
   },
   {
     descricao: "Todo o sistema de iluminação dianteiro ou traseiro estiverem com defeito/lâmpadas queimadas",
@@ -108,7 +108,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Equipamento obrigatório inoperante",
     medida: "Retenção / Remoção conforme caso",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada:*DURANTE O DIA (art. 270, §2º, do CTB)- Autuação + Bloqueio de 30 dias e *DURANTE À NOITE (art. 270, §2º c/c §7º, do CTB) – Autuação + Bloqueio de 30 dias + REMOÇÃO ao pátio"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada:*DURANTE O DIA (art. 270, §2º, do CTB)- Autuação + Bloqueio de 30 dias e *DURANTE À NOITE (art. 270, §2º c/c §7º, do CTB) – Autuação + Bloqueio de 30 dias + REMOÇÃO ao pátio /// Conforme ITT 7 do CPTran "item 1.3.4.1.2" (sugiro a leitura)"
   },
   {
     descricao: "Retrorefletor (catadióptrico) “ausente”, em motocicletas fabricadas a partir de 2019",
@@ -153,7 +153,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Dispositivo antirradar",
     medida: "Remoção do veículo",
     gravidade: Gravidade.GRAVISSIMO,
-    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias /// Diante do caso concreto e a fim de se coroar a Boa Ordem Administrativa, é devida a REMOÇÃO ao pátio, ainda que o infrator, ao ser fiscalizado, Sane a irrelularidade no veículo"
+    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias /// Diante do caso concreto e a fim de se coroar a Boa Ordem Administrativa, é devida a REMOÇÃO ao pátio, ainda que o infrator, ao ser fiscalizado, Sane a irrelularidade no veículo /// Conforme ITT 7 do CPTran "item 2.5.6" (sugiro a leitura)"
   },
   {
     descricao: "Calçado tipo chinelo havainas, sapato feminino plataforma, calçado feminino salto alto e etc…",
@@ -171,7 +171,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Placa sem legibilidade e visibilidade",
     medida: "Remoção do veículo",
     gravidade: Gravidade.GRAVISSIMO,
-    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias"
+    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias /// Conforme ITT 7 do CPTran "item 2.5.6" (sugiro a leitura)"
   },
   {
     descricao: "Motocicleta sem placa",
@@ -180,7 +180,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Sem placa de identificação",
     medida: "Remoção do veículo",
     gravidade: Gravidade.GRAVISSIMO,
-    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias /// Diante do caso concreto e a fim de se coroar a Boa Ordem Administrativa, é devida a REMOÇÃO ao pátio, ainda que o infrator, ao ser fiscalizado, Sane a irrelularidade no veículo"
+    observacoes: "Irregularidade sanada (art. 271, §9º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 271, §9º-A, do CTB), Autuação + Bloqueio de 15 dias /// Diante do caso concreto e a fim de se coroar a Boa Ordem Administrativa, é devida a REMOÇÃO ao pátio, ainda que o infrator, ao ser fiscalizado, Sane a irrelularidade no veículo /// Conforme ITT 7 do CPTran "item 2.2.1 e 2.5.6" (sugiro a leitura)"
   },
   {
     descricao: "Sem espelhos retrovisores",
@@ -234,7 +234,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Sem capacete de segurança",
     medida: "Retenção / Remoção conforme caso",
     gravidade: Gravidade.GRAVISSIMO,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, e não oferece condições de segurança para circulação (art. 270, §2º c/c §7º, do CTB), Autuação + REMOÇÃO ao pátio"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, e não oferece condições de segurança para circulação (art. 270, §2º c/c §7º, do CTB), Autuação + REMOÇÃO ao pátio /// Conforme ITT 13 do CPTran "parte final" (sugiro a leitura)"
   },
   {
     descricao: "Transportar passageiro sem capacete de segurança",
