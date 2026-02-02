@@ -159,9 +159,9 @@ const App: React.FC = () => {
                    </div>
                    <div className="flex items-center gap-4 text-slate-500 text-[11px] font-black uppercase tracking-tight bg-slate-800/10 p-3 rounded-xl border border-slate-800/30">
                       <div className="w-6 h-6 rounded bg-yellow-500/10 flex items-center justify-center">
-                        <i className="fas fa-plane-slash text-yellow-500/60 text-[10px]"></i>
+                        <i className="fas fa-globe text-yellow-500/60 text-[10px]"></i>
                       </div>
-                      <span>Operação 100% Offline</span>
+                      <span>Consulta On-line</span>
                    </div>
                 </div>
               </div>
