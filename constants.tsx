@@ -96,7 +96,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     descricao: "Escapamento com ruído irregular, oriundo de furos por corrosão ou intensionalmente, miolo adulterado, quebrado e etc…",
     codigo: "665-32",
     artigo: "Art. 230, XI",
-    tipificacao: "Sistema de escapamento defeituoso",
+    tipificacao: "Silenciador de motor de explosão defeituoso, deficiente ou inoperante",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
@@ -228,7 +228,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias"
   },
   {
-    descricao: "Condutor sem capacete",
+    descricao: "Condutor sem capacete de segurança",
     codigo: "703-01",
     artigo: "Art. 244, I",
     tipificacao: "Sem capacete de segurança",
@@ -237,7 +237,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, e não oferece condições de segurança para circulação (art. 270, §2º c/c §7º, do CTB), Autuação + REMOÇÃO ao pátio"
   },
   {
-    descricao: "Transportar passageiro sem capacete",
+    descricao: "Transportar passageiro sem capacete de segurança",
     codigo: "704-81",
     artigo: "Art. 244, II",
     tipificacao: "Passageiro sem capacete de segurança",
@@ -246,34 +246,34 @@ export const DADOS_INFRACAO: Infracao[] = [
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Capacete com a cinta jugular e engate, por debaixo do maxilar inferior “solta”.",
+    descricao: "Capacete de segurança com a cinta jugular e engate, por debaixo do maxilar inferior “solta”.",
     codigo: "520-70",
     artigo: "Art. 169",
-    tipificacao: "Sem atenção à segurança",
+    tipificacao: "Sem atenção ou sem os cuidados indispensáveis à segurança",
     medida: "Sem medida",
     gravidade: Gravidade.LEVE,
     observacoes: "Irregularidade sanada, Autuação e liberação imediata"
   },
   {
-    descricao: "Capacete do tipo articulado (modular) com queixeira não abaixada e/ou não travada",
+    descricao: "Capacete de segurança do tipo articulado (modular) com queixeira não abaixada e/ou não travada",
     codigo: "520-70",
     artigo: "Art. 169",
-    tipificacao: "Sem atenção à segurança",
+    tipificacao: "Sem atenção ou sem os cuidados indispensáveis à segurança",
     medida: "Sem medida",
     gravidade: Gravidade.LEVE,
     observacoes: "Irregularidade sanada, Autuação e liberação imediata"
   },
   {
-    descricao: "Malabarismo em uma roda",
+    descricao: "Malabarismo ou equilibrando-se em uma roda",
     codigo: "705-61",
     artigo: "Art. 244, III",
-    tipificacao: "Malabarismo",
+    tipificacao: "Malabarismo ou equilibrando-se em uma roda",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVISSIMO,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Capacete mal encaixado na cabeça",
+    descricao: "Capacete de segurança mal encaixado na cabeça",
     codigo: "703-01",
     artigo: "Art. 244, I",
     tipificacao: "Sem capacete de segurança",
@@ -282,37 +282,37 @@ export const DADOS_INFRACAO: Infracao[] = [
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Condutor com capacete com viseira ou óculos de proteção em descacordo (ex. viseira levantada)",
+    descricao: "Condutor com capacete de segurança com viseira ou óculos de proteção em descacordo (ex. viseira levantada)",
     codigo: "768-42",
     artigo: "Art. 244, X",
-    tipificacao: "Capacete em desacordo",
+    tipificacao: "Condutor com capacete de segurança com viseira ou óculos de proteção em descacordo",
     medida: "Retenção do veículo",
     gravidade: Gravidade.MEDIA,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Transportar passageiro com capacete com viseira ou óculos de proteção em descacordo (ex. viseira levantada)",
+    descricao: "Transportar passageiro com capacete de segurança com viseira ou óculos de proteção em descacordo (ex. viseira levantada)",
     codigo: "771-42",
     artigo: "Art. 244, XI",
-    tipificacao: "Passageiro com capacete em desacordo",
+    tipificacao: "Passageiro com capacete de segurança com viseira ou óculos de proteção em descacordo",
     medida: "Retenção do veículo",
     gravidade: Gravidade.MEDIA,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Condutor com capacete sem viseira ou óculos de proteção",
+    descricao: "Condutor com capacete de segurança sem viseira ou óculos de proteção",
     codigo: "768-41",
     artigo: "Art. 244, X",
-    tipificacao: "Capacete sem viseira ou óculos",
+    tipificacao: "Condutor com capacete de segurança sem viseira ou óculos de proteção",
     medida: "Retenção do veículo",
     gravidade: Gravidade.MEDIA,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
   },
   {
-    descricao: "Transportar passageiro com capacete sem viseira ou óculos de proteção",
+    descricao: "Transportar passageiro com capacete de segurança sem viseira ou óculos de proteção",
     codigo: "771-41",
     artigo: "Art. 244, XI",
-    tipificacao: "Passageiro sem viseira ou óculos",
+    tipificacao: "Passageiro om capacete de segurança sem viseira ou óculos de proteção",
     medida: "Retenção do veículo",
     gravidade: Gravidade.MEDIA,
     observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata"
