@@ -47,6 +47,14 @@ const App: React.FC = () => {
         
         {!selectedInfracao && (
           <div className="space-y-4 mb-6 transition-all duration-300">
+           
+            {/* Data de Atualização - Alinhada à Direita em Branco */}
+            <div className="flex justify-end pr-2 -mb-2">
+              <span className="text-[9px] font-black text-white uppercase tracking-[0.2em] drop-shadow-sm">
+                Atualizado em: 02/02/2026
+              </span>
+            </div>
+            
             {/* Input de Busca */}
             <div className="relative">
               <div className="absolute left-4 top-1/2 -translate-y-1/2 text-[#ff0000] drop-shadow-[0_0_15px_rgba(255,0,0,1)]">
