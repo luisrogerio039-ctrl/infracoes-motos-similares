@@ -72,7 +72,7 @@ export const DADOS_INFRACAO: Infracao[] = [
     tipificacao: "Equipamento obrigatório em desacordo",
     medida: "Retenção do veículo",
     gravidade: Gravidade.GRAVE,
-    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran "item 2.3.3.5" (sugiro a leitura)"
+    observacoes: "Irregularidade sanada (art. 270, §1º, do CTB), Autuação e liberação imediata /// Irregularidade não sanada, porém oferece condições de segurança para circulação (art. 270, §2º, do CTB), Autuação + Bloqueio de 30 dias /// Conforme ITT 14 do CPTran, item 2.3.3.5 (sugiro a leitura)"
   },
   {
     descricao: "Escapamento sem redutor de temperatura (Motocicletas fabricadas a partir de 2009), "quando exigível pelo modelo"",
