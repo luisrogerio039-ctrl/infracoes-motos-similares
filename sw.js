@@ -1,5 +1,5 @@
 
-const CACHE_NAME = 'pmesp-infracoes-v4'; // Versão incrementada
+const CACHE_NAME = 'pmesp-infracoes-v5'; // MUDADO DE v4 PARA v5
 const ASSETS = [
   '/',
   '/index.html',
