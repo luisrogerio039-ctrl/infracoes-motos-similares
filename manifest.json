@@ -1,8 +1,8 @@
 
 {
   "name": "PMESP - Consulta de Infrações",
-  "short_name": "Infrações PM",
-  "description": "Consulta tática de infrações para a Polícia Militar do Estado de São Paulo",
+  "short_name": "Infrações de Motocicletas e Similares",
+  "description": "Consulta de infrações para a Polícia Militar do Estado de São Paulo",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f172a",
