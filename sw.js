@@ -5,7 +5,7 @@ const ASSETS = [
   '/index.html',
   '/manifest.json',
   '/index.tsx',
-  '/icon.png', // O Service Worker agora vai salvar sua imagem para uso offline
+  '/icon.png',
   'https://cdn.tailwindcss.com',
   'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css',
   'https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap'
